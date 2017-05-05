@@ -35,7 +35,7 @@ Route::get('/item/{id}/edit', 'ItemsController@edit');
 Route::post('/item/{id}/edit', 'ItemsController@update');
 
 // brisanje Item-a
-Route::delete('/item/{id}', 'ItemsController@destroy');
+Route::get('/item/{id}/del', 'ItemsController@destroy');
 	
 
 
